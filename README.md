@@ -1,2 +1,2 @@
-# yahoo-finance-c-
+# yahoo-finance-cpp
 yahoo finance c++
