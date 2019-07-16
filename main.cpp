@@ -31,17 +31,9 @@ static size_t write_stringstream(void* ptr, size_t size, size_t nmemb, void* str
 int main()
 {
 
+	std::string stock = "GOOG";
+	
 	curl_global_init(CURL_GLOBAL_ALL);
-
-
-
-
-
-	std::string stock = "ATVI";
-
-
-
-
 
 	curl = curl_easy_init();
 	if (curl) {
@@ -104,7 +96,6 @@ int main()
 		}
 
 	}
-
 
 
 	std::cout << input.str();
